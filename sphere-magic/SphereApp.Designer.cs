@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SphereApp));
             this.spherePhoto1 = new System.Windows.Forms.PictureBox();
             this.spherePhoto2 = new System.Windows.Forms.PictureBox();
             this.sphereLbl = new System.Windows.Forms.Label();
@@ -47,7 +46,7 @@
             // spherePhoto1
             // 
             this.spherePhoto1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.spherePhoto1.Image = ((System.Drawing.Image)(resources.GetObject("spherePhoto1.Image")));
+            this.spherePhoto1.Image = global::sphere_magic.Properties.Resources.sphere;
             this.spherePhoto1.Location = new System.Drawing.Point(12, 12);
             this.spherePhoto1.Name = "spherePhoto1";
             this.spherePhoto1.Size = new System.Drawing.Size(150, 150);
@@ -58,7 +57,7 @@
             // spherePhoto2
             // 
             this.spherePhoto2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.spherePhoto2.Image = ((System.Drawing.Image)(resources.GetObject("spherePhoto2.Image")));
+            this.spherePhoto2.Image = global::sphere_magic.Properties.Resources.sphere;
             this.spherePhoto2.Location = new System.Drawing.Point(222, 199);
             this.spherePhoto2.Name = "spherePhoto2";
             this.spherePhoto2.Size = new System.Drawing.Size(150, 150);
