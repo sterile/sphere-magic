@@ -6,14 +6,7 @@
  * Description: This application takes the radius of a sphere and calculates diameter, surface area, and volume.
  */
 
- using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using System.Windows.Forms;
 
 namespace sphere_magic
