@@ -116,6 +116,7 @@
             this.calcBtn.TabIndex = 7;
             this.calcBtn.Text = "Calculate";
             this.calcBtn.UseVisualStyleBackColor = true;
+            this.calcBtn.Click += new System.EventHandler(this.calcBtn_Click);
             // 
             // calcDiameterLabel
             // 
