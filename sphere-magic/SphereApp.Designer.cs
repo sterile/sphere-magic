@@ -77,29 +77,32 @@
             // diameterLbl
             // 
             this.diameterLbl.AutoSize = true;
-            this.diameterLbl.Location = new System.Drawing.Point(34, 187);
+            this.diameterLbl.Location = new System.Drawing.Point(34, 188);
             this.diameterLbl.Name = "diameterLbl";
             this.diameterLbl.Size = new System.Drawing.Size(49, 13);
             this.diameterLbl.TabIndex = 3;
             this.diameterLbl.Text = "Diameter";
+            this.diameterLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // surfaceLbl
             // 
             this.surfaceLbl.AutoSize = true;
-            this.surfaceLbl.Location = new System.Drawing.Point(14, 238);
+            this.surfaceLbl.Location = new System.Drawing.Point(14, 239);
             this.surfaceLbl.Name = "surfaceLbl";
             this.surfaceLbl.Size = new System.Drawing.Size(69, 13);
             this.surfaceLbl.TabIndex = 4;
             this.surfaceLbl.Text = "Surface Area";
+            this.surfaceLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // volumeLbl
             // 
             this.volumeLbl.AutoSize = true;
-            this.volumeLbl.Location = new System.Drawing.Point(41, 289);
+            this.volumeLbl.Location = new System.Drawing.Point(41, 290);
             this.volumeLbl.Name = "volumeLbl";
             this.volumeLbl.Size = new System.Drawing.Size(42, 13);
             this.volumeLbl.TabIndex = 5;
             this.volumeLbl.Text = "Volume";
+            this.volumeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // radiusTBox
             // 
@@ -121,7 +124,7 @@
             // calcDiameterLabel
             // 
             this.calcDiameterLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.calcDiameterLabel.Location = new System.Drawing.Point(89, 187);
+            this.calcDiameterLabel.Location = new System.Drawing.Point(89, 183);
             this.calcDiameterLabel.Name = "calcDiameterLabel";
             this.calcDiameterLabel.Size = new System.Drawing.Size(100, 23);
             this.calcDiameterLabel.TabIndex = 8;
@@ -130,7 +133,7 @@
             // calcSurfaceLbl
             // 
             this.calcSurfaceLbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.calcSurfaceLbl.Location = new System.Drawing.Point(92, 238);
+            this.calcSurfaceLbl.Location = new System.Drawing.Point(89, 234);
             this.calcSurfaceLbl.Name = "calcSurfaceLbl";
             this.calcSurfaceLbl.Size = new System.Drawing.Size(100, 23);
             this.calcSurfaceLbl.TabIndex = 9;
@@ -139,7 +142,7 @@
             // calcVolumeLbl
             // 
             this.calcVolumeLbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.calcVolumeLbl.Location = new System.Drawing.Point(92, 288);
+            this.calcVolumeLbl.Location = new System.Drawing.Point(89, 285);
             this.calcVolumeLbl.Name = "calcVolumeLbl";
             this.calcVolumeLbl.Size = new System.Drawing.Size(100, 23);
             this.calcVolumeLbl.TabIndex = 10;
